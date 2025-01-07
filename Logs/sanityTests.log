@@ -1,0 +1,70 @@
+[INFO ] 2025-01-07 16:17:23.030 [main] payTheCartTest - begin sanity test: buying an item case 3
+[INFO ] 2025-01-07 16:17:23.032 [main] payTheCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:17:23.032 [main] payTheCartTest - Click on Add product to cart (quantity greater than 1)
+[INFO ] 2025-01-07 16:17:23.032 [main] payTheCartTest - result: The site will update the cart and display the updated price when several products of the same type are added (will update the price per quantity * price per unit)..
+[INFO ] 2025-01-07 16:17:23.033 [main] payTheCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:17:23.033 [main] payTheCartTest - click on the item in the store: green shirt
+[INFO ] 2025-01-07 16:17:23.698 [main] payTheCartTest - action of selection anount has been made:9
+[INFO ] 2025-01-07 16:17:23.698 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-07 16:17:23.774 [main] payTheCartTest - let's buy the product for price: 80.0 total price720.0
+[INFO ] 2025-01-07 16:17:24.559 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-07 16:17:28.458 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-07 16:17:28.458 [main] payTheCartTest - let's found the ATID Green Tshirt product in the cart with the amount 9
+[INFO ] 2025-01-07 16:17:28.458 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-07 16:17:28.471 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-07 16:17:28.547 [main] payTheCartTest - we found the ATID Green Tshirt product in the cart with the amount 9
+[INFO ] 2025-01-07 16:17:28.547 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-07 16:17:28.547 [main] payTheCartTest - we got the item in the cart WITH THE AMOUNT: TEST PASS
+[INFO ] 2025-01-07 16:42:56.268 [main] addingItemToCartTest - begin sanity test: buying an item case 4
+[INFO ] 2025-01-07 16:42:56.271 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:42:56.271 [main] addingItemToCartTest - begin sanity test: buying an item case 3
+[INFO ] 2025-01-07 16:42:56.272 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:42:56.272 [main] addingItemToCartTest - We clicked on Add product to cart (quantity number greater than 1) but there is not enough stock of the product according to what the user entered.
+[INFO ] 2025-01-07 16:42:56.272 [main] addingItemToCartTest - result: The site will ask the user to change the quantity of products to a different quantity..
+[INFO ] 2025-01-07 16:42:56.272 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:42:56.272 [main] addingItemToCartTest - click on the item in the store: atid black shoes
+[INFO ] 2025-01-07 16:42:57.033 [main] addingItemToCartTest - action of selection anount has been made:9999
+[INFO ] 2025-01-07 16:42:57.033 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-07 16:42:57.067 [main] addingItemToCartTest - let's buy the product for price: 61.0 total price609939.0
+[INFO ] 2025-01-07 16:42:57.915 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-07 16:43:02.137 [main] addingItemToCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-07 16:43:02.137 [main] addingItemToCartTest - let's found the ATID Black Shoes product in the cart with the amount 9999
+[INFO ] 2025-01-07 16:43:02.137 [main] addingItemToCartTest - let's go into the cart
+[INFO ] 2025-01-07 16:43:02.150 [main] addingItemToCartTest - let's go into the table
+[INFO ] 2025-01-07 16:43:02.227 [main] addingItemToCartTest - we found the ATID Black Shoes product in the cart with the amount 9999
+[INFO ] 2025-01-07 16:43:02.227 [main] addingItemToCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-07 16:43:02.228 [main] addingItemToCartTest - we got the item in the cart WITH THE AMOUNT: TEST FAIL
+[INFO ] 2025-01-07 16:52:00.974 [main] addingItemToCartTest - begin sanity test: buying an item case 5
+[INFO ] 2025-01-07 16:52:00.977 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:52:00.977 [main] addingItemToCartTest - Click on Add Product to Cart (quantity greater than 1) and then click on Add Product again.
+[INFO ] 2025-01-07 16:52:00.977 [main] addingItemToCartTest - result: The product will be added to the cart and the price will be updated accordingly.
+[INFO ] 2025-01-07 16:52:00.977 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-07 16:52:00.977 [main] addingItemToCartTest - click on the item in the store: atid black shoes
+[INFO ] 2025-01-07 16:52:01.479 [main] addingItemToCartTest - first time buy the product
+[INFO ] 2025-01-07 16:52:01.612 [main] addingItemToCartTest - action of selection anount has been made:1
+[INFO ] 2025-01-07 16:52:01.612 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-07 16:52:01.667 [main] addingItemToCartTest - let's buy the product for price: 61.0 total price61.0
+[INFO ] 2025-01-07 16:52:02.942 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-07 16:52:03.012 [main] addingItemToCartTest - the product ATID Black Shoesis in the cart
+[INFO ] 2025-01-07 16:52:03.013 [main] addingItemToCartTest - second time buy the product
+[INFO ] 2025-01-07 16:52:03.097 [main] addingItemToCartTest - action of selection anount has been made:1
+[INFO ] 2025-01-07 16:52:03.097 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-07 16:52:03.116 [main] addingItemToCartTest - let's buy the product for price: 61.0 total price61.0
+[INFO ] 2025-01-07 16:52:03.702 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-07 16:52:03.839 [main] addingItemToCartTest - the product ATID Black Shoesis in the cart
+[INFO ] 2025-01-07 16:52:07.792 [main] addingItemToCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-07 16:52:07.792 [main] addingItemToCartTest - let's found the atid black shoes product in the cart with the amount 2
+[INFO ] 2025-01-07 16:52:07.793 [main] addingItemToCartTest - let's go into the cart
+[INFO ] 2025-01-07 16:52:07.807 [main] addingItemToCartTest - let's go into the table
+[INFO ] 2025-01-07 16:52:07.884 [main] addingItemToCartTest - we found the ATID Black Shoes product in the cart with the amount 2
+[INFO ] 2025-01-07 16:52:07.885 [main] addingItemToCartTest - we got the item in the cart WITH THE AMOUNT: TEST PASS
+[INFO ] 2025-01-07 17:03:19.725 [main] addingItemToCartTest - Now testing use case 1: null
+[INFO ] 2025-01-07 17:03:20.259 [main] addingItemToCartTest - now let's click on the contact us option
+[INFO ] 2025-01-07 17:03:20.270 [main] addingItemToCartTest - Could not get to the check point
+[INFO ] 2025-01-07 17:03:20.270 [main] addingItemToCartTest - ACTION PASS WITH ERRORSnull - TEST FAIL
+[INFO ] 2025-01-07 17:04:34.228 [main] addingItemToCartTest - Now testing use case 1: null
+[INFO ] 2025-01-07 17:04:34.716 [main] addingItemToCartTest - now let's click on the contact us option
+[INFO ] 2025-01-07 17:04:34.725 [main] addingItemToCartTest - Could not get to the check point
+[INFO ] 2025-01-07 17:04:34.725 [main] addingItemToCartTest - ACTION PASS WITH ERRORSCould not get to the check point - TEST FAIL
+[INFO ] 2025-01-07 17:05:13.064 [main] addingItemToCartTest - Now testing use case 1: null
+[INFO ] 2025-01-07 17:05:13.567 [main] addingItemToCartTest - now let's click on the contact us option

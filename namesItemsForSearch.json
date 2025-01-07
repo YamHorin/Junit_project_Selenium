@@ -1,0 +1,48 @@
+
+[
+
+{
+    "case" :"Enter the name of a product that can't be found in the store.",
+    "name":"Green Shoes",
+    "expected Result" : "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+},
+{
+    "case" :"Enter the name of a product that can't be found in the store.",
+    "name":"koook",
+    "expected Result" : "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+},
+{
+    "case" :"We will enter a name prefix that is found in several products",
+    "name":"Green Shoes",
+    "expected Result" : "pass"
+},
+{
+    "case" :"We will enter the ending of a name found in several products",
+    "name":"Shoes",
+    "expected Result" : "pass"
+
+},
+{
+    "case" :"We will enter the ending of a name found in several products",
+    "name":"Shirts",
+    "expected Result" : "pass"
+
+},
+{
+    "case" :"Enter a Letter ",
+    "name":"D",
+    "expected Result" : "pass"
+
+},
+{
+    "case" :"We will enter a word that is found in the description of the same product.",
+    "name":"woman",
+    "expected Result" : "pass"
+
+
+}
+
+
+
+
+]

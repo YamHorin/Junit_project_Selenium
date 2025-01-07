@@ -1,0 +1,39 @@
+[
+{
+    "Description":"Click on Add Product to Cart (Quantity 1)",
+    "product":"green shirt",
+    "amount":"1",
+    "result":"The product will be added to the cart and the price will be updated accordingly."
+},
+{
+
+    "Description":"Click on Add Product to Cart (Quantity 0)",
+    "product":"Anchor-Bracelet",
+    "amount":"0",
+    "result":"The site will display an error."
+},
+{
+
+    "Description":"Click on Add product to cart (quantity greater than 1)",
+    "product":"green shirt",
+    "amount":"9",
+    "result":"The site will update the cart and display the updated price when several products of the same type are added (will update the price per quantity * price per unit).."
+},
+{
+
+    "Description":"We clicked on Add product to cart (quantity number greater than 1) but there is not enough stock of the product according to what the user entered.",
+    "product":"atid black shoes",
+    "amount":"9999",
+    "result":"The site will ask the user to change the quantity of products to a different quantity.."
+},
+{
+    "Description":"Click on Add Product to Cart (quantity greater than 1) and then click on Add Product again.",
+    "product":"atid black shoes",
+    "amount":"1",
+    "product2":"atid black shoes",
+    "amount2":"1",
+    "result":"The product will be added to the cart and the price will be updated accordingly."
+}
+
+
+]
