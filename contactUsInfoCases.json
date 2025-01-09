@@ -1,0 +1,45 @@
+[
+{
+"Name": "Yam",
+"Subject":"Test Subject",
+"Email": "Horinyam@gmail.com",
+"Message": "Message",
+"Use Case":"We will enter a contact request with all the complete details."
+},
+{
+    "Name": "",
+    "Subject":"Test Subject",
+    "Email": "Horinyam@gmail.com",
+    "Message": "Message",
+    "Use Case":"Enter a contact request with all the details complete except the name."
+},
+{
+    "Name": "Yam",
+    "Subject":"Test Subject",
+    "Email": "",
+    "Message": "Message",
+    "Use Case":"Enter a contact request with all the details complete except for the email."
+},
+{
+    "Name": "Yam",
+    "Subject":"",
+    "Email": "horinyam@gmail.com",
+    "Message": "Message",
+    "Use Case":"Enter a contact request with all the details complete except for the subject."
+},
+{
+    "Name": "",
+    "Subject":"",
+    "Email": "",
+    "Message": "",
+    "Use Case":"Enter a  empty contact request "
+},
+{
+    "Name": "Yam",
+    "Subject":"subject",
+    "Email": "horinyam.com",
+    "Message": "Message",
+    "Use Case":"We will enter a request with an incorrect email."
+}
+
+]

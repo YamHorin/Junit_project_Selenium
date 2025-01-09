@@ -1,0 +1,95 @@
+[ 
+
+{ 
+"First_name":"alex",
+"Last_name":"cohen",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohen@gmail.com",
+"testCase":"Click on the payment option when there is a shopping cart with products and the user details have been entered"
+},
+{ 
+"First_name":"alex",
+"Last_name":"cohen",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohen@gmail.com",
+"testCase":"Click on the payment option when there is a shopping cart is empty and the user details have been entered"
+},
+{ 
+"First_name":"alex",
+"Last_name":"",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohen@gmail.com",
+"testCase":"Click on the payment option when there is a shopping cart is full and the user details have been entered but last name is empty"
+},      
+{ 
+"First_name":"alexy",
+"Last_name":"nono",
+"Street_address":"5135165fefes3fs",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohen@gmail.com",
+"testCase":"Click on the payment option when there is a shopping cart is full and the user details have been entered but address is not real (not a real place)"
+},
+{ 
+"First_name":"alex",
+"Last_name":"cohen",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohenemail",
+"testCase":"Click on the payment option when there is a shopping cart is full and the user details have been entered but The email is not correct."
+},
+{ 
+"First_name":"alex",
+"Last_name":"Aba",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"111111111111111",
+"Email_address":"cohen@gmail.com",
+"testCase":"Click on the payment option when there is a shopping cart is full and the user details have been entered but the phone is not real"
+},
+{ 
+"First_name":"alex",
+"Last_name":"cohen",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohen@gmail.com",
+"First_name2":"alex",
+"Last_name2":"cohen",
+"Street_address2":"Hillel road 230",
+"Postcode_ZIP2":"123456",
+"Town_City2":"Ramat Gan",
+"testCase":"Click on the payment option when there is a shopping cart is full and the user details have been entered but we want to ship the product into diffrent place"
+},
+{ 
+"First_name":"alex",
+"Last_name":"cohen",
+"Street_address":"Aba Hillel road 130",
+"Postcode_ZIP":"123456",
+"Town_City":"Ramat Gan",
+"Phone":"052621218552",
+"Email_address":"cohen@gmail.com",
+"First_name2":"alex",
+"Last_name2":"cohen",
+"Street_address2":"Hillel road 230",
+"Postcode_ZIP2":"123456",
+"Town_City2":"Ramat Gan",
+"notes":"notes for the order",
+"testCase":"Click on the payment option when there is a shopping cart is full and the user details have been entered but we want to ship the product into diffrent place and we have a note in the shipping"
+}
+
+]

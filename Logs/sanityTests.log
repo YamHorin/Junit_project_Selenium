@@ -1,0 +1,542 @@
+[INFO ] 2025-01-08 12:06:36.420 [main] addingItemToCartTest - begin sanity test: buying an item case 1
+[INFO ] 2025-01-08 12:06:36.422 [main] addingItemToCartTest - Click on Add Product to Cart (Quantity 1)
+[INFO ] 2025-01-08 12:06:36.423 [main] addingItemToCartTest - result: The product will be added to the cart and the price will be updated accordingly.
+[INFO ] 2025-01-08 12:06:36.423 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:06:36.423 [main] addingItemToCartTest - click on the item in the store: green shirt
+[INFO ] 2025-01-08 12:06:37.076 [main] addingItemToCartTest - action of selection anount has been made:1
+[INFO ] 2025-01-08 12:06:37.076 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-08 12:06:37.098 [main] addingItemToCartTest - let's buy the product for price: 80.0 total price80.0
+[INFO ] 2025-01-08 12:06:37.778 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:06:37.812 [main] addingItemToCartTest - the product ATID Green Tshirtis in the cart
+[INFO ] 2025-01-08 12:06:41.790 [main] addingItemToCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:06:41.791 [main] addingItemToCartTest - let's found the ATID Green Tshirt product in the cart with the amount 1
+[INFO ] 2025-01-08 12:06:41.791 [main] addingItemToCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:06:41.799 [main] addingItemToCartTest - let's go into the table
+[INFO ] 2025-01-08 12:06:41.842 [main] addingItemToCartTest - we found the ATID Green Tshirt product in the cart with the amount 1
+[INFO ] 2025-01-08 12:06:41.842 [main] addingItemToCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:06:41.842 [main] addingItemToCartTest - we got the item in the cart: TEST PASS
+[INFO ] 2025-01-08 12:06:43.956 [main] addingItemToCartTest - begin sanity test: buying an item case 2
+[INFO ] 2025-01-08 12:06:43.956 [main] addingItemToCartTest - Click on Add Product to Cart (Quantity 0)
+[INFO ] 2025-01-08 12:06:43.957 [main] addingItemToCartTest - result: The site will display an error.
+[INFO ] 2025-01-08 12:06:43.957 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:06:43.957 [main] addingItemToCartTest - click on the item in the store: anchor-bracelet
+[INFO ] 2025-01-08 12:06:44.492 [main] addingItemToCartTest - action of selection anount has been made:0
+[INFO ] 2025-01-08 12:06:44.492 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-08 12:06:44.513 [main] addingItemToCartTest - let's buy the product for price: 50.0 total price0.0
+[INFO ] 2025-01-08 12:06:44.574 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:06:44.591 [main] addingItemToCartTest - the product Anchor Braceletis in the cart
+[INFO ] 2025-01-08 12:06:45.312 [main] addingItemToCartTest - the site saying the cart is empty
+[INFO ] 2025-01-08 12:06:45.312 [main] addingItemToCartTest - the cart is empty - no products has added
+[INFO ] 2025-01-08 12:06:45.312 [main] addingItemToCartTest - we don't have the correct amount in the cart
+[INFO ] 2025-01-08 12:06:45.313 [main] addingItemToCartTest - could not buy the product item
+[INFO ] 2025-01-08 12:06:45.313 [main] addingItemToCartTest - PASS
+[INFO ] 2025-01-08 12:06:47.420 [main] addingItemToCartTest - begin sanity test: buying an item case 3
+[INFO ] 2025-01-08 12:06:47.420 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:06:47.421 [main] addingItemToCartTest - Click on Add product to cart (quantity greater than 1)
+[INFO ] 2025-01-08 12:06:47.421 [main] addingItemToCartTest - result: The site will update the cart and display the updated price when several products of the same type are added (will update the price per quantity * price per unit)..
+[INFO ] 2025-01-08 12:06:47.421 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:06:47.421 [main] addingItemToCartTest - click on the item in the store: green shirt
+[INFO ] 2025-01-08 12:06:47.901 [main] addingItemToCartTest - action of selection anount has been made:9
+[INFO ] 2025-01-08 12:06:47.902 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-08 12:06:47.920 [main] addingItemToCartTest - let's buy the product for price: 80.0 total price720.0
+[INFO ] 2025-01-08 12:06:48.639 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:06:48.694 [main] addingItemToCartTest - the product ATID Green Tshirtis in the cart
+[INFO ] 2025-01-08 12:06:52.391 [main] addingItemToCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:06:52.391 [main] addingItemToCartTest - let's found the ATID Green Tshirt product in the cart with the amount 9
+[INFO ] 2025-01-08 12:06:52.391 [main] addingItemToCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:06:52.399 [main] addingItemToCartTest - let's go into the table
+[INFO ] 2025-01-08 12:06:52.435 [main] addingItemToCartTest - we found the ATID Green Tshirt product in the cart with the amount 9
+[INFO ] 2025-01-08 12:06:52.435 [main] addingItemToCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:06:52.435 [main] addingItemToCartTest - we got the item in the cart WITH THE AMOUNT: TEST PASS
+[INFO ] 2025-01-08 12:06:54.480 [main] addingItemToCartTest - begin sanity test: buying an item case 4
+[INFO ] 2025-01-08 12:06:54.480 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:06:54.480 [main] addingItemToCartTest - We clicked on Add product to cart (quantity number greater than 1) but there is not enough stock of the product according to what the user entered.
+[INFO ] 2025-01-08 12:06:54.480 [main] addingItemToCartTest - result: The site will ask the user to change the quantity of products to a different quantity..
+[INFO ] 2025-01-08 12:06:54.480 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:06:54.480 [main] addingItemToCartTest - click on the item in the store: atid black shoes
+[INFO ] 2025-01-08 12:06:55.029 [main] addingItemToCartTest - action of selection anount has been made:9999
+[INFO ] 2025-01-08 12:06:55.030 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-08 12:06:55.051 [main] addingItemToCartTest - let's buy the product for price: 61.0 total price609939.0
+[INFO ] 2025-01-08 12:06:55.604 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:06:55.744 [main] addingItemToCartTest - the product ATID Black Shoesis in the cart
+[INFO ] 2025-01-08 12:06:59.505 [main] addingItemToCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:06:59.505 [main] addingItemToCartTest - let's found the ATID Black Shoes product in the cart with the amount 9999
+[INFO ] 2025-01-08 12:06:59.505 [main] addingItemToCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:06:59.514 [main] addingItemToCartTest - let's go into the table
+[INFO ] 2025-01-08 12:06:59.569 [main] addingItemToCartTest - we found the ATID Black Shoes product in the cart with the amount 9999
+[INFO ] 2025-01-08 12:06:59.569 [main] addingItemToCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:06:59.569 [main] addingItemToCartTest - we got the item in the cart WITH THE AMOUNT: TEST FAIL
+[INFO ] 2025-01-08 12:07:01.763 [main] addingItemToCartTest - begin sanity test: buying an item case 5
+[INFO ] 2025-01-08 12:07:01.763 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:07:01.763 [main] addingItemToCartTest - Click on Add Product to Cart (quantity greater than 1) and then click on Add Product again.
+[INFO ] 2025-01-08 12:07:01.763 [main] addingItemToCartTest - result: The product will be added to the cart and the price will be updated accordingly.
+[INFO ] 2025-01-08 12:07:01.763 [main] addingItemToCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:07:01.763 [main] addingItemToCartTest - click on the item in the store: atid black shoes
+[INFO ] 2025-01-08 12:07:02.233 [main] addingItemToCartTest - first time buy the product
+[INFO ] 2025-01-08 12:07:02.308 [main] addingItemToCartTest - action of selection anount has been made:1
+[INFO ] 2025-01-08 12:07:02.308 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-08 12:07:02.327 [main] addingItemToCartTest - let's buy the product for price: 61.0 total price61.0
+[INFO ] 2025-01-08 12:07:02.837 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:07:02.965 [main] addingItemToCartTest - the product ATID Black Shoesis in the cart
+[INFO ] 2025-01-08 12:07:02.965 [main] addingItemToCartTest - second time buy the product
+[INFO ] 2025-01-08 12:07:03.037 [main] addingItemToCartTest - action of selection anount has been made:1
+[INFO ] 2025-01-08 12:07:03.037 [main] addingItemToCartTest - let's find the current price
+[INFO ] 2025-01-08 12:07:03.049 [main] addingItemToCartTest - let's buy the product for price: 61.0 total price61.0
+[INFO ] 2025-01-08 12:07:03.580 [main] addingItemToCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:07:03.698 [main] addingItemToCartTest - the product ATID Black Shoesis in the cart
+[INFO ] 2025-01-08 12:07:07.461 [main] addingItemToCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:07:07.461 [main] addingItemToCartTest - let's found the atid black shoes product in the cart with the amount 2
+[INFO ] 2025-01-08 12:07:07.461 [main] addingItemToCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:07:07.469 [main] addingItemToCartTest - let's go into the table
+[INFO ] 2025-01-08 12:07:07.507 [main] addingItemToCartTest - we found the ATID Black Shoes product in the cart with the amount 2
+[INFO ] 2025-01-08 12:07:07.508 [main] addingItemToCartTest - we got the item in the cart WITH THE AMOUNT: TEST PASS
+[INFO ] 2025-01-08 12:08:39.427 [main] payTheCartTest - begin sanity test: pay for cart case 1
+[INFO ] 2025-01-08 12:08:39.430 [main] payTheCartTest - begin add item to cart
+[INFO ] 2025-01-08 12:08:39.430 [main] payTheCartTest - click on the item in the store: atid black shoes
+[INFO ] 2025-01-08 12:08:40.078 [main] payTheCartTest - action of selection anount has been made:1
+[INFO ] 2025-01-08 12:08:40.078 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:08:40.098 [main] payTheCartTest - let's buy the product for price: 61.0 total price61.0
+[INFO ] 2025-01-08 12:08:40.768 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:08:40.811 [main] payTheCartTest - the product ATID Black Shoesis in the cart
+[INFO ] 2025-01-08 12:08:44.595 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:08:44.596 [main] payTheCartTest - let's found the ATID Black Shoes product in the cart with the amount 1
+[INFO ] 2025-01-08 12:08:44.596 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:08:44.606 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:08:44.647 [main] payTheCartTest - we found the ATID Black Shoes product in the cart with the amount 1
+[INFO ] 2025-01-08 12:08:44.647 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:08:44.647 [main] payTheCartTest - Now testing use case 1: Click on the payment option when there is a shopping cart with products and the user details have been entered
+[INFO ] 2025-01-08 12:08:45.190 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:08:45.913 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:08:46.060 [main] payTheCartTest - put Email_address in the page as: cohen@gmail.com
+[INFO ] 2025-01-08 12:08:46.162 [main] payTheCartTest - put First_name in the page as: alex
+[INFO ] 2025-01-08 12:08:46.261 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:08:46.368 [main] payTheCartTest - put Phone in the page as: 052621218552
+[INFO ] 2025-01-08 12:08:46.508 [main] payTheCartTest - put Street_address in the page as: Aba Hillel road 130
+[INFO ] 2025-01-08 12:08:46.619 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:08:46.724 [main] payTheCartTest - put Last_name in the page as: cohen
+[INFO ] 2025-01-08 12:08:46.724 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:08:47.728 [main] payTheCartTest - 1
+[INFO ] 2025-01-08 12:08:47.729 [main] payTheCartTest - not error in the website
+[INFO ] 2025-01-08 12:08:47.729 [main] payTheCartTest - order passed action complete
+[INFO ] 2025-01-08 12:08:47.729 [main] payTheCartTest - we got no errors in our process - TEST PASS
+[INFO ] 2025-01-08 12:08:49.778 [main] payTheCartTest - begin sanity test: pay for cart case 2
+[INFO ] 2025-01-08 12:08:49.779 [main] payTheCartTest - begin remove items from cart
+[INFO ] 2025-01-08 12:08:49.779 [main] payTheCartTest - let's remove all the products from the cart
+[INFO ] 2025-01-08 12:08:50.553 [main] payTheCartTest - the site saying the cart is empty 
+[INFO ] 2025-01-08 12:08:50.553 [main] payTheCartTest - Now testing use case 2: Click on the payment option when there is a shopping cart is empty and the user details have been entered
+[INFO ] 2025-01-08 12:08:51.091 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:08:51.105 [main] payTheCartTest - Could not get to the check point
+[INFO ] 2025-01-08 12:08:51.106 [main] payTheCartTest - got an error in the process no such element: Unable to locate element: {"method":"css selector","selector":".checkout-button"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd7dc01c0af94d5f57b0a7518a4b070c, findElement {using=css selector, value=.checkout-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\horin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52460/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd7dc01c0af94d5f57b0a7518a4b070c
+[INFO ] 2025-01-08 12:08:51.106 [main] payTheCartTest - order did not passed ,action was not  complete
+[INFO ] 2025-01-08 12:08:51.106 [main] payTheCartTest - we could not complete paying for an empty cart - TEST PASS
+[INFO ] 2025-01-08 12:08:53.233 [main] payTheCartTest - begin sanity test: pay for cart case 3
+[INFO ] 2025-01-08 12:08:53.234 [main] payTheCartTest - begin add items to cart
+[INFO ] 2025-01-08 12:08:53.234 [main] payTheCartTest - click on the item in the store: basic gray jeans
+[INFO ] 2025-01-08 12:08:53.741 [main] payTheCartTest - action of selection anount has been made:3
+[INFO ] 2025-01-08 12:08:53.741 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:08:53.758 [main] payTheCartTest - let's buy the product for price: 110.0 total price330.0
+[INFO ] 2025-01-08 12:08:54.289 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:08:54.413 [main] payTheCartTest - the product Basic Gray Jeansis in the cart
+[INFO ] 2025-01-08 12:08:58.179 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:08:58.179 [main] payTheCartTest - let's found the Basic Gray Jeans product in the cart with the amount 3
+[INFO ] 2025-01-08 12:08:58.179 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:08:58.188 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:08:58.226 [main] payTheCartTest - we found the Basic Gray Jeans product in the cart with the amount 3
+[INFO ] 2025-01-08 12:08:58.226 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:08:58.226 [main] payTheCartTest - Now testing use case 3: Click on the payment option when there is a shopping cart is full and the user details have been entered but last name is empty
+[INFO ] 2025-01-08 12:08:58.884 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:08:59.629 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:08:59.781 [main] payTheCartTest - put Email_address in the page as: cohen@gmail.com
+[INFO ] 2025-01-08 12:08:59.869 [main] payTheCartTest - put First_name in the page as: alex
+[INFO ] 2025-01-08 12:08:59.961 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:09:00.065 [main] payTheCartTest - put Phone in the page as: 052621218552
+[INFO ] 2025-01-08 12:09:00.193 [main] payTheCartTest - put Street_address in the page as: Aba Hillel road 130
+[INFO ] 2025-01-08 12:09:00.279 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:09:00.363 [main] payTheCartTest - put Last_name in the page as: 
+[INFO ] 2025-01-08 12:09:00.363 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:09:01.569 [main] payTheCartTest - 2
+[INFO ] 2025-01-08 12:09:01.569 [main] payTheCartTest - there are errors in the website
+[INFO ] 2025-01-08 12:09:01.588 [main] payTheCartTest - we got an error : Billing Last name is a required field.
+[INFO ] 2025-01-08 12:09:01.588 [main] payTheCartTest - order did not passed action because of LAST NAME
+[INFO ] 2025-01-08 12:09:01.588 [main] payTheCartTest - we found our error in the site : PASS
+[INFO ] 2025-01-08 12:09:03.624 [main] payTheCartTest - begin sanity test: pay for cart case 4
+[INFO ] 2025-01-08 12:09:03.624 [main] payTheCartTest - begin add items to cart
+[INFO ] 2025-01-08 12:09:03.624 [main] payTheCartTest - click on the item in the store: basic gray jeans
+[INFO ] 2025-01-08 12:09:04.161 [main] payTheCartTest - action of selection anount has been made:5
+[INFO ] 2025-01-08 12:09:04.161 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:09:04.179 [main] payTheCartTest - let's buy the product for price: 110.0 total price550.0
+[INFO ] 2025-01-08 12:09:04.895 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:09:04.929 [main] payTheCartTest - the product Basic Gray Jeansis in the cart
+[INFO ] 2025-01-08 12:09:08.798 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:09:08.798 [main] payTheCartTest - let's found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:08.798 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:09:08.804 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:09:08.839 [main] payTheCartTest - we found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:08.839 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:09:08.839 [main] payTheCartTest - Now testing use case 4: Click on the payment option when there is a shopping cart is full and the user details have been entered but address is not real (not a real place)
+[INFO ] 2025-01-08 12:09:09.376 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:09:10.110 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:09:10.248 [main] payTheCartTest - put Email_address in the page as: cohen@gmail.com
+[INFO ] 2025-01-08 12:09:10.342 [main] payTheCartTest - put First_name in the page as: alexy
+[INFO ] 2025-01-08 12:09:10.435 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:09:10.528 [main] payTheCartTest - put Phone in the page as: 052621218552
+[INFO ] 2025-01-08 12:09:10.631 [main] payTheCartTest - put Street_address in the page as: 5135165fefes3fs
+[INFO ] 2025-01-08 12:09:10.734 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:09:10.828 [main] payTheCartTest - put Last_name in the page as: nono
+[INFO ] 2025-01-08 12:09:10.828 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:09:11.780 [main] payTheCartTest - 1
+[INFO ] 2025-01-08 12:09:11.780 [main] payTheCartTest - there are errors in the website
+[INFO ] 2025-01-08 12:09:11.787 [main] payTheCartTest - we got an error : Invalid payment method.
+[INFO ] 2025-01-08 12:09:11.788 [main] payTheCartTest - order did not passed action but no instances of the error we looking for
+[INFO ] 2025-01-08 12:09:11.788 [main] payTheCartTest - we didn't found our error in the site : FAIL
+[INFO ] 2025-01-08 12:09:13.809 [main] payTheCartTest - begin sanity test: pay for cart case 5
+[INFO ] 2025-01-08 12:09:13.809 [main] payTheCartTest - begin add items to cart
+[INFO ] 2025-01-08 12:09:13.809 [main] payTheCartTest - click on the item in the store: basic gray jeans
+[INFO ] 2025-01-08 12:09:14.356 [main] payTheCartTest - action of selection anount has been made:5
+[INFO ] 2025-01-08 12:09:14.356 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:09:14.374 [main] payTheCartTest - let's buy the product for price: 110.0 total price550.0
+[INFO ] 2025-01-08 12:09:14.904 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:09:15.029 [main] payTheCartTest - the product Basic Gray Jeansis in the cart
+[INFO ] 2025-01-08 12:09:18.770 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:09:18.770 [main] payTheCartTest - let's found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:18.770 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:09:18.778 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:09:18.819 [main] payTheCartTest - we found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:18.819 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:09:18.820 [main] payTheCartTest - Now testing use case 5: Click on the payment option when there is a shopping cart is full and the user details have been entered but The email is not correct.
+[INFO ] 2025-01-08 12:09:19.363 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:09:20.060 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:09:20.195 [main] payTheCartTest - put Email_address in the page as: cohenemail
+[INFO ] 2025-01-08 12:09:20.286 [main] payTheCartTest - put First_name in the page as: alex
+[INFO ] 2025-01-08 12:09:20.379 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:09:20.476 [main] payTheCartTest - put Phone in the page as: 052621218552
+[INFO ] 2025-01-08 12:09:20.583 [main] payTheCartTest - put Street_address in the page as: Aba Hillel road 130
+[INFO ] 2025-01-08 12:09:20.687 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:09:20.804 [main] payTheCartTest - put Last_name in the page as: cohen
+[INFO ] 2025-01-08 12:09:20.804 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:09:21.705 [main] payTheCartTest - 1
+[INFO ] 2025-01-08 12:09:21.706 [main] payTheCartTest - there are errors in the website
+[INFO ] 2025-01-08 12:09:21.714 [main] payTheCartTest - we got an error : Invalid billing email address
+[INFO ] 2025-01-08 12:09:21.714 [main] payTheCartTest - order did not passed action because of EMAIL
+[INFO ] 2025-01-08 12:09:21.714 [main] payTheCartTest - we found our error in the site : PASS
+[INFO ] 2025-01-08 12:09:23.783 [main] payTheCartTest - begin sanity test: pay for cart case 6
+[INFO ] 2025-01-08 12:09:23.783 [main] payTheCartTest - begin add items to cart
+[INFO ] 2025-01-08 12:09:23.783 [main] payTheCartTest - click on the item in the store: basic gray jeans
+[INFO ] 2025-01-08 12:09:24.315 [main] payTheCartTest - action of selection anount has been made:5
+[INFO ] 2025-01-08 12:09:24.316 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:09:24.335 [main] payTheCartTest - let's buy the product for price: 110.0 total price550.0
+[INFO ] 2025-01-08 12:09:24.878 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:09:25.021 [main] payTheCartTest - the product Basic Gray Jeansis in the cart
+[INFO ] 2025-01-08 12:09:28.793 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:09:28.793 [main] payTheCartTest - let's found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:28.793 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:09:28.802 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:09:28.841 [main] payTheCartTest - we found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:28.841 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:09:28.841 [main] payTheCartTest - Now testing use case 6: Click on the payment option when there is a shopping cart is full and the user details have been entered but the phone is not real
+[INFO ] 2025-01-08 12:09:29.337 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:09:30.045 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:09:30.186 [main] payTheCartTest - put Email_address in the page as: cohen@gmail.com
+[INFO ] 2025-01-08 12:09:30.278 [main] payTheCartTest - put First_name in the page as: alex
+[INFO ] 2025-01-08 12:09:30.369 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:09:30.471 [main] payTheCartTest - put Phone in the page as: 111111111111111
+[INFO ] 2025-01-08 12:09:30.592 [main] payTheCartTest - put Street_address in the page as: Aba Hillel road 130
+[INFO ] 2025-01-08 12:09:30.681 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:09:30.777 [main] payTheCartTest - put Last_name in the page as: Aba
+[INFO ] 2025-01-08 12:09:30.777 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:09:31.664 [main] payTheCartTest - 1
+[INFO ] 2025-01-08 12:09:31.664 [main] payTheCartTest - there are errors in the website
+[INFO ] 2025-01-08 12:09:31.670 [main] payTheCartTest - we got an error : Invalid payment method.
+[INFO ] 2025-01-08 12:09:31.671 [main] payTheCartTest - order did not passed action but no instances of the error we looking for
+[INFO ] 2025-01-08 12:09:31.671 [main] payTheCartTest - we didn't found our error in the site : FAIL
+[INFO ] 2025-01-08 12:09:33.750 [main] payTheCartTest - begin sanity test: pay for cart case 7
+[INFO ] 2025-01-08 12:09:33.750 [main] payTheCartTest - begin add items to cart
+[INFO ] 2025-01-08 12:09:33.750 [main] payTheCartTest - click on the item in the store: basic gray jeans
+[INFO ] 2025-01-08 12:09:34.278 [main] payTheCartTest - action of selection anount has been made:5
+[INFO ] 2025-01-08 12:09:34.278 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:09:34.297 [main] payTheCartTest - let's buy the product for price: 110.0 total price550.0
+[INFO ] 2025-01-08 12:09:34.793 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:09:34.922 [main] payTheCartTest - the product Basic Gray Jeansis in the cart
+[INFO ] 2025-01-08 12:09:38.640 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:09:38.640 [main] payTheCartTest - let's found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:38.640 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:09:38.646 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:09:38.678 [main] payTheCartTest - we found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:38.678 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:09:38.679 [main] payTheCartTest - Now testing use case 7: Click on the payment option when there is a shopping cart is full and the user details have been entered but we want to ship the product into diffrent place
+[INFO ] 2025-01-08 12:09:39.184 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:09:39.893 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:09:40.027 [main] payTheCartTest - put Email_address in the page as: cohen@gmail.com
+[INFO ] 2025-01-08 12:09:40.126 [main] payTheCartTest - put First_name in the page as: alex
+[INFO ] 2025-01-08 12:09:40.228 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:09:40.330 [main] payTheCartTest - put Phone in the page as: 052621218552
+[INFO ] 2025-01-08 12:09:40.446 [main] payTheCartTest - put Street_address in the page as: Aba Hillel road 130
+[INFO ] 2025-01-08 12:09:40.533 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:09:40.654 [main] payTheCartTest - put Last_name in the page as: cohen
+[INFO ] 2025-01-08 12:09:40.655 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:09:40.844 [main] payTheCartTest - click on the ship to a diffrent location option
+[INFO ] 2025-01-08 12:09:41.389 [main] payTheCartTest - put Postcode_ZIP2 in the page in shipping section  as: 123456
+[INFO ] 2025-01-08 12:09:41.704 [main] payTheCartTest - put Last_name2 in the page in shipping section  as: cohen
+[INFO ] 2025-01-08 12:09:41.794 [main] payTheCartTest - put Town_City2 in the page in shipping section  as: Ramat Gan
+[INFO ] 2025-01-08 12:09:41.871 [main] payTheCartTest - put First_name2 in the page in shipping section  as: alex
+[INFO ] 2025-01-08 12:09:41.971 [main] payTheCartTest - put Street_address2 in the page in shipping section  as: Hillel road 230
+[INFO ] 2025-01-08 12:09:42.311 [main] payTheCartTest - 1
+[INFO ] 2025-01-08 12:09:42.311 [main] payTheCartTest - not error in the website
+[INFO ] 2025-01-08 12:09:42.311 [main] payTheCartTest - order passed action complete
+[INFO ] 2025-01-08 12:09:42.311 [main] payTheCartTest - we didn't found error in the site : PASS
+[INFO ] 2025-01-08 12:09:44.395 [main] payTheCartTest - begin sanity test: pay for cart case 8
+[INFO ] 2025-01-08 12:09:44.395 [main] payTheCartTest - begin add items to cart
+[INFO ] 2025-01-08 12:09:44.396 [main] payTheCartTest - click on the item in the store: basic gray jeans
+[INFO ] 2025-01-08 12:09:44.962 [main] payTheCartTest - action of selection anount has been made:5
+[INFO ] 2025-01-08 12:09:44.962 [main] payTheCartTest - let's find the current price
+[INFO ] 2025-01-08 12:09:45.021 [main] payTheCartTest - let's buy the product for price: 110.0 total price550.0
+[INFO ] 2025-01-08 12:09:45.567 [main] payTheCartTest - let's check in the cart 
+[INFO ] 2025-01-08 12:09:45.692 [main] payTheCartTest - the product Basic Gray Jeansis in the cart
+[INFO ] 2025-01-08 12:09:49.445 [main] payTheCartTest - the site saying the cart is not empty 
+[INFO ] 2025-01-08 12:09:49.445 [main] payTheCartTest - let's found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:49.445 [main] payTheCartTest - let's go into the cart
+[INFO ] 2025-01-08 12:09:49.452 [main] payTheCartTest - let's go into the table
+[INFO ] 2025-01-08 12:09:49.486 [main] payTheCartTest - we found the Basic Gray Jeans product in the cart with the amount 5
+[INFO ] 2025-01-08 12:09:49.486 [main] payTheCartTest - we have the correct amount in the cart
+[INFO ] 2025-01-08 12:09:49.486 [main] payTheCartTest - Now testing use case 8: Click on the payment option when there is a shopping cart is full and the user details have been entered but we want to ship the product into diffrent place and we have a note in the shipping
+[INFO ] 2025-01-08 12:09:50.178 [main] payTheCartTest - now we at the cart let's click on the checkpoint
+[INFO ] 2025-01-08 12:09:50.911 [main] payTheCartTest - we now at the checkPoint
+[INFO ] 2025-01-08 12:09:51.046 [main] payTheCartTest - put Email_address in the page as: cohen@gmail.com
+[INFO ] 2025-01-08 12:09:51.131 [main] payTheCartTest - put First_name in the page as: alex
+[INFO ] 2025-01-08 12:09:51.226 [main] payTheCartTest - put Town_City in the page as: Ramat Gan
+[INFO ] 2025-01-08 12:09:51.318 [main] payTheCartTest - put Phone in the page as: 052621218552
+[INFO ] 2025-01-08 12:09:51.441 [main] payTheCartTest - put Street_address in the page as: Aba Hillel road 130
+[INFO ] 2025-01-08 12:09:51.528 [main] payTheCartTest - put Postcode_ZIP in the page as: 123456
+[INFO ] 2025-01-08 12:09:51.638 [main] payTheCartTest - put Last_name in the page as: cohen
+[INFO ] 2025-01-08 12:09:51.638 [main] payTheCartTest - put country in the page as: Israel
+[INFO ] 2025-01-08 12:09:51.822 [main] payTheCartTest - click on the ship to a diffrent location option
+[INFO ] 2025-01-08 12:09:52.234 [main] payTheCartTest - put Postcode_ZIP2 in the page in shipping section  as: 123456
+[INFO ] 2025-01-08 12:09:52.691 [main] payTheCartTest - put Last_name2 in the page in shipping section  as: cohen
+[INFO ] 2025-01-08 12:09:52.784 [main] payTheCartTest - put Town_City2 in the page in shipping section  as: Ramat Gan
+[INFO ] 2025-01-08 12:09:52.861 [main] payTheCartTest - put First_name2 in the page in shipping section  as: alex
+[INFO ] 2025-01-08 12:09:52.961 [main] payTheCartTest - put Street_address2 in the page in shipping section  as: Hillel road 230
+[INFO ] 2025-01-08 12:09:53.110 [main] payTheCartTest - put notes in the page in shipping section (the other section) as: notes for the order
+[INFO ] 2025-01-08 12:09:53.989 [main] payTheCartTest - 1
+[INFO ] 2025-01-08 12:09:53.989 [main] payTheCartTest - not error in the website
+[INFO ] 2025-01-08 12:09:53.989 [main] payTheCartTest - order passed action complete
+[INFO ] 2025-01-08 12:09:53.989 [main] payTheCartTest - we didn't found error in the site : PASS
+[INFO ] 2025-01-08 12:10:54.502 [main] searchItemInTheSiteTest - begin sanity test: search for item case 1
+[INFO ] 2025-01-08 12:10:54.503 [main] searchItemInTheSiteTest - case : Enter the name of a product that can be found in the store.
+[INFO ] 2025-01-08 12:10:54.503 [main] searchItemInTheSiteTest - expected Result : The site will show us all the products with the same name.
+[INFO ] 2025-01-08 12:10:54.504 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:10:54.557 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:10:55.237 [main] searchItemInTheSiteTest - enter in the search bar: atid black shoes
+[INFO ] 2025-01-08 12:10:55.237 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:10:55.263 [main] searchItemInTheSiteTest - no message found
+[INFO ] 2025-01-08 12:10:55.311 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:10:55.312 [main] searchItemInTheSiteTest - got 1    results in the action
+[INFO ] 2025-01-08 12:10:55.312 [main] searchItemInTheSiteTest - we got our results now let's test and see if our String in the results (name or discription)
+[INFO ] 2025-01-08 12:10:55.312 [main] searchItemInTheSiteTest - check if the result [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search atid black shoes, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:10:55.312 [main] searchItemInTheSiteTest - TEST PASS
+[INFO ] 2025-01-08 12:10:57.313 [main] searchItemInTheSiteTest - begin begin sanity test: search for item case 2
+[INFO ] 2025-01-08 12:10:57.313 [main] searchItemInTheSiteTest - case : Enter the name of a product that can't be found in the store.
+[INFO ] 2025-01-08 12:10:57.313 [main] searchItemInTheSiteTest - expected Result : The website will display that the product is not available in the store.
+[INFO ] 2025-01-08 12:10:57.313 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:10:57.370 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:10:57.945 [main] searchItemInTheSiteTest - enter in the search bar: koook
+[INFO ] 2025-01-08 12:10:57.945 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:10:57.973 [main] searchItemInTheSiteTest - we got a message in the site Sorry, but nothing matched your search terms. Please try again with some different keywords.
+[INFO ] 2025-01-08 12:10:57.973 [main] searchItemInTheSiteTest - TEST PASS
+[INFO ] 2025-01-08 12:11:00.015 [main] searchItemInTheSiteTest - begin sanity test: search for item case 3
+[INFO ] 2025-01-08 12:11:00.015 [main] searchItemInTheSiteTest - case : We will enter a name prefix that is found in several products
+[INFO ] 2025-01-08 12:11:00.015 [main] searchItemInTheSiteTest - expected Result : Will display those products that have the same name prefix entered
+[INFO ] 2025-01-08 12:11:00.015 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:11:00.067 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:11:00.796 [main] searchItemInTheSiteTest - enter in the search bar: Green
+[INFO ] 2025-01-08 12:11:00.796 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:11:00.823 [main] searchItemInTheSiteTest - no message found
+[INFO ] 2025-01-08 12:11:00.865 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:00.886 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Green Tshirt, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:00.905 [main] searchItemInTheSiteTest - found a result of a product: [name=Green Hoodie, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:00.905 [main] searchItemInTheSiteTest - got 3    results in the action
+[INFO ] 2025-01-08 12:11:00.905 [main] searchItemInTheSiteTest - we got our results now let's test and see if our String in the results (name or discription)
+[INFO ] 2025-01-08 12:11:00.905 [main] searchItemInTheSiteTest - check if the result [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Green, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:00.906 [main] searchItemInTheSiteTest - check if the result [name=ATID Green Tshirt, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Green, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:00.906 [main] searchItemInTheSiteTest - check if the result [name=Green Hoodie, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Green, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:00.906 [main] searchItemInTheSiteTest - TEST PASS
+[INFO ] 2025-01-08 12:11:02.969 [main] searchItemInTheSiteTest - begin sanity test: search for item case 4
+[INFO ] 2025-01-08 12:11:02.969 [main] searchItemInTheSiteTest - case : We will enter the ending of a name that is found in several products
+[INFO ] 2025-01-08 12:11:02.969 [main] searchItemInTheSiteTest - expected Result : Will display those products that have the same name subfix entered
+[INFO ] 2025-01-08 12:11:02.970 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:11:03.021 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:11:03.722 [main] searchItemInTheSiteTest - enter in the search bar: Shoes
+[INFO ] 2025-01-08 12:11:03.722 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:11:03.729 [main] searchItemInTheSiteTest - no message found
+[INFO ] 2025-01-08 12:11:03.793 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:03.812 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:03.845 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:03.865 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - got 5    results in the action
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - we got our results now let's test and see if our String in the results (name or discription)
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - check if the result [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Shoes, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - check if the result [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Shoes, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - check if the result [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Shoes, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - check if the result [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Shoes, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - check if the result [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Shoes, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:03.885 [main] searchItemInTheSiteTest - TEST PASS
+[INFO ] 2025-01-08 12:11:06.138 [main] searchItemInTheSiteTest - begin sanity test: search for item case 5
+[INFO ] 2025-01-08 12:11:06.139 [main] searchItemInTheSiteTest - case : We will enter an empty name
+[INFO ] 2025-01-08 12:11:06.139 [main] searchItemInTheSiteTest - expected Result : will display an error
+[INFO ] 2025-01-08 12:11:06.139 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:11:06.206 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:11:06.780 [main] searchItemInTheSiteTest - enter in the search bar: 
+[INFO ] 2025-01-08 12:11:06.780 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:11:06.965 [main] searchItemInTheSiteTest - no message found
+[INFO ] 2025-01-08 12:11:07.009 [main] searchItemInTheSiteTest - found a result of a product: [name=Hello world!, productDescription=Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]
+
+[INFO ] 2025-01-08 12:11:07.029 [main] searchItemInTheSiteTest - found a result of a product: [name=Contact Us, productDescription=/*! elementor – v3.5.3 – 28-12-2021 */ .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px} Contact Us You tell us. We listen. /*! elementor – v3.5.3 – 28-12-2021 */ .elementor-widget.elementor-icon-list–layout-inline .elementor-widget-container{overflow:hidden}.elementor-widget .elementor-icon-list-items.elementor-inline-items{margin-right:-8px;margin-left:-8px}.elementor-widget .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:8px;margin-left:8px}.elementor-widget .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{width:auto;left:auto;right:auto;position:relative;height:100%;border-top:0;border-bottom:0;border-right:0;border-left-width:1px;border-style:solid;right:-8px}.elementor-widget .elementor-icon-list-items{list-style-type:none;margin:0;padding:0}.elementor-widget .elementor-icon-list-item{margin:0;padding:0;position:relative}.elementor-widget .elementor-icon-list-item:after{position:absolute;bottom:0;width:100%}.elementor-widget .elementor-icon-list-item,.elementor-widget .elementor-icon-list-item a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:inherit}.elementor-widget .elementor-icon-list-icon+.elementor-icon-list-text{-ms-flex-item-align:center;align-self:center;padding-left:5px}.elementor-widget .elementor-icon-list-icon{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget .elementor-icon-list-icon svg{width:var(–e-icon-list-icon-size,1em);height:var(–e-icon-list-icon-size,1em)}.elementor-widget .elementor-icon-list-icon i{width:1.25em;font-size:var(–e-icon-list-icon-size)}.elementor-widget.elementor-widget-icon-list .elementor-icon-list-icon{text-align:var(–e-icon-list-icon-align)}.elementor-widget.elementor-widget-icon-list .elementor-icon-list-icon svg{margin:var(–e-icon-list-icon-margin,0 calc(var(–e-icon-list-icon-size, 1em) * .25) 0 …
+Contact Us
+Read More »]
+
+[INFO ] 2025-01-08 12:11:07.051 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.069 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.089 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.110 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.130 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Brown Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.175 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Blue Denim Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.195 [main] searchItemInTheSiteTest - found a result of a product: [name=Faint Washed Denim Blue Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.215 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Gray Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:07.215 [main] searchItemInTheSiteTest - got 10    results in the action
+[INFO ] 2025-01-08 12:11:07.215 [main] searchItemInTheSiteTest - TEST FAIL
+[INFO ] 2025-01-08 12:11:09.221 [main] searchItemInTheSiteTest - begin sanity test: search for item case 6
+[INFO ] 2025-01-08 12:11:09.221 [main] searchItemInTheSiteTest - case : Enter a Letter 
+[INFO ] 2025-01-08 12:11:09.221 [main] searchItemInTheSiteTest - expected Result : The site will display all products that have the same letter in their name.
+[INFO ] 2025-01-08 12:11:09.222 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:11:09.270 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:11:09.957 [main] searchItemInTheSiteTest - enter in the search bar: D
+[INFO ] 2025-01-08 12:11:09.957 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:11:09.976 [main] searchItemInTheSiteTest - no message found
+[INFO ] 2025-01-08 12:11:10.037 [main] searchItemInTheSiteTest - found a result of a product: [name=Hello world!, productDescription=Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]
+
+[INFO ] 2025-01-08 12:11:10.056 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.075 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.095 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.115 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.133 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Brown Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.153 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Blue Denim Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.174 [main] searchItemInTheSiteTest - found a result of a product: [name=Faint Washed Denim Blue Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.192 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Gray Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - got 10    results in the action
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - we got our results now let's test and see if our String in the results (name or discription)
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - check if the result [name=Hello world!, productDescription=Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - check if the result [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - check if the result [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.211 [main] searchItemInTheSiteTest - check if the result [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - check if the result [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - check if the result [name=Dark Brown Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - check if the result [name=Dark Blue Denim Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - check if the result [name=Faint Washed Denim Blue Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - check if the result [name=Dark Gray Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - check if the result [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search D, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:10.212 [main] searchItemInTheSiteTest - TEST PASS
+[INFO ] 2025-01-08 12:11:12.227 [main] searchItemInTheSiteTest - begin sanity test: search for item case 7
+[INFO ] 2025-01-08 12:11:12.227 [main] searchItemInTheSiteTest - case : We will enter a word that is found in the description of the same product.
+[INFO ] 2025-01-08 12:11:12.227 [main] searchItemInTheSiteTest - expected Result : The site will display those products that have the same word in both the name and the product description.
+[INFO ] 2025-01-08 12:11:12.228 [main] searchItemInTheSiteTest - let's search for products in the search bar
+[INFO ] 2025-01-08 12:11:12.274 [main] searchItemInTheSiteTest - click on the icon search
+[INFO ] 2025-01-08 12:11:13.043 [main] searchItemInTheSiteTest - enter in the search bar: Nam
+[INFO ] 2025-01-08 12:11:13.043 [main] searchItemInTheSiteTest - let's check for the no result message
+[INFO ] 2025-01-08 12:11:13.062 [main] searchItemInTheSiteTest - no message found
+[INFO ] 2025-01-08 12:11:13.120 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.138 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.158 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.177 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.196 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Brown Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.215 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Blue Denim Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.234 [main] searchItemInTheSiteTest - found a result of a product: [name=Faint Washed Denim Blue Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.254 [main] searchItemInTheSiteTest - found a result of a product: [name=Dark Gray Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.273 [main] searchItemInTheSiteTest - found a result of a product: [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.291 [main] searchItemInTheSiteTest - found a result of a product: [name=Black Hoodie, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - got 10    results in the action
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - we got our results now let's test and see if our String in the results (name or discription)
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=ATID Black Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=ATID Yellow Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=ATID Red Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=ATID Blue Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=Dark Brown Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=Dark Blue Denim Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=Faint Washed Denim Blue Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=Dark Gray Jeans, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=ATID Green Shoes, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - check if the result [name=Black Hoodie, productDescription=Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.]
+ contain the input of our search Nam, Whether the result was supposed to be displayed or not
+[INFO ] 2025-01-08 12:11:13.292 [main] searchItemInTheSiteTest - TEST PASS
