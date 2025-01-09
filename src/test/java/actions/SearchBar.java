@@ -20,6 +20,7 @@ public class SearchBar {
 	By resultTitle = By.className("entry-title");
 	By reasultContext = By.className("entry-content");
 	
+	
 	By noResults = By.cssSelector(".page-content > p:nth-child(1)");
 	public SearchBar(WebDriver driver, Logger logger) {
 		this.driver = driver;
