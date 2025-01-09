@@ -14,16 +14,31 @@ public class SearchBar {
 	private WebDriver driver;
 	private Logger logger;
 	
-	By bar =By.className("slide-search astra-search-icon");
+	By bar =By.xpath("/html/body/div/header/div[1]/div[1]/div/div/div/div[3]/div[2]/div/div/a");
 	By textInput = By.className("search-field");
 	By results = By.className("ast-row");
 	By resultTitle = By.className("entry-title");
-	By reasultContext = By.className("entry-content clear");
+	By reasultContext = By.className("entry-content");
 	
-	
+	By noResults = By.cssSelector(".page-content > p:nth-child(1)");
 	public SearchBar(WebDriver driver, Logger logger) {
 		this.driver = driver;
 		this.logger = logger;
+	}
+	public boolean checkNoResults()
+	{
+		logger.info("let's check for the no result message");
+		try {
+			String message = driver.findElement(noResults).getText();
+			logger.info("we got a message in the site "+message);
+			return true;
+		}
+		catch(NoSuchElementException e)
+		{
+			logger.info("no message found");
+			return false;
+		}
+		
 	}
 
 	public List<searchResult> Search(String text)
@@ -32,9 +47,12 @@ public class SearchBar {
 		logger.info("let's search for products in the search bar");
 		driver.findElement(bar).click();
 		logger.info("click on the icon search");
-		driver.findElement(textInput).sendKeys(text);
+		if (text!=null)
+			driver.findElement(textInput).sendKeys(text);
 		driver.findElement(textInput).sendKeys(Keys.ENTER);
-		logger.info("enter in the search bar:" + text);
+		logger.info("enter in the search bar: " + text);
+		if (checkNoResults())
+			return null;
 		List<searchResult> searchResultsObjects = new ArrayList<searchResult>();
 		try {
 			WebElement element = driver.findElement(results);
@@ -52,7 +70,7 @@ public class SearchBar {
 			logger.info("no results in the page");
 		}
 		
-		logger.info("got "+searchResultsObjects.size()+"results in the action");			
+		logger.info("got "+searchResultsObjects.size()+"    results in the action");			
 		return searchResultsObjects;
 	}
 	

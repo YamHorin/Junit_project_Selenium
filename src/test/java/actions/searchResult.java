@@ -19,6 +19,10 @@ public class searchResult {
 		this.name = name;
 		this.productDescription = productDescription;
 	}
+	public boolean contain(String str)
+	{
+		return (name.toLowerCase().contains(str.toLowerCase()))||(productDescription.toLowerCase().contains(str.toLowerCase()));
+	}
 
 	
 	

@@ -93,19 +93,94 @@ public class contectUsTest {
 	}
 	@Test
 	public void test3() {
-		
+		try {
+			if (!contectUs.contact(2))
+			{
+				logger.info("ACTION PASS WITH ERRORS");
+				logger.info("let's found error in the email field");
+				if (contectUs.findError("email"))
+					logger.info("error found in the field TEST PASS");
+				else
+					logger.info("error not found in the field TEST FAIL");
+
+			}
+			else
+			{
+				logger.info("ACTION PASS WITH NO ERRORS FAIL");
+
+			}
+		} catch (Exception e) {
+			logger.info("ACTION PASS WITH ERRORS   "+e.getMessage()+" - TEST FAIL");
+
+			
+		}
 	}
 	@Test
 	public void test4() {
-		
+		try {
+			if (!contectUs.contact(3))
+			{
+				logger.info("ACTION PASS WITH ERRORS");
+				logger.info("let's found error in the subject field");
+				if (contectUs.findError("subject"))
+					logger.info("error found in the field TEST PASS");
+				else
+					logger.info("error not found in the field TEST FAIL");
+
+			}
+			else
+			{
+				logger.info("ACTION PASS WITH NO ERRORS FAIL");
+
+			}
+		} catch (Exception e) {
+			logger.info("ACTION PASS WITH ERRORS   "+e.getMessage()+" - TEST FAIL");
+
+			
+		}
 	}
 	@Test
 	public void test5() {
-		
+		try {
+			if (!contectUs.contact(4))
+			{
+				logger.info("ACTION PASS WITH ERRORS");
+				logger.info("error found in the field TEST PASS");
+			}
+			else
+			{
+				logger.info("ACTION PASS WITH NO ERRORS FAIL");
+
+			}
+		} catch (Exception e) {
+			logger.info("ACTION PASS WITH ERRORS   "+e.getMessage()+" - TEST FAIL");
+
+			
+		}
 	}
 	@Test
 	public void test6() {
-		
+		try {
+			if (!contectUs.contact(5))
+			{
+				logger.info("ACTION PASS WITH ERRORS");
+				logger.info("let's found error in the email field");
+				if (contectUs.findError("email"))
+					logger.info("error found in the field TEST PASS");
+				else
+					logger.info("error not found in the field TEST FAIL");
+
+			}
+			else
+			{
+				logger.info("ACTION PASS WITH NO ERRORS FAIL");
+
+			}
+		} catch (Exception e) {
+			logger.info("ACTION PASS WITH ERRORS   "+e.getMessage()+" - TEST FAIL");
+
+			
+		}
 	}
 
 }

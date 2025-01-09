@@ -1,48 +1,44 @@
 
 [
-
 {
-    "case" :"Enter the name of a product that can't be found in the store.",
-    "name":"Green Shoes",
-    "expected Result" : "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+    "case" :"Enter the name of a product that can be found in the store.",
+    "name":"atid black shoes",
+    "expected Result" : "The site will show us all the products with the same name."
 },
 {
     "case" :"Enter the name of a product that can't be found in the store.",
     "name":"koook",
-    "expected Result" : "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+    "expected Result" : "The website will display that the product is not available in the store."
 },
 {
     "case" :"We will enter a name prefix that is found in several products",
-    "name":"Green Shoes",
-    "expected Result" : "pass"
+    "name":"Green",
+    "expected Result" : "Will display those products that have the same name prefix entered"
 },
 {
-    "case" :"We will enter the ending of a name found in several products",
+    "case" :"We will enter the ending of a name that is found in several products",
     "name":"Shoes",
-    "expected Result" : "pass"
+    "expected Result" : "Will display those products that have the same name subfix entered"
 
 },
 {
-    "case" :"We will enter the ending of a name found in several products",
-    "name":"Shirts",
-    "expected Result" : "pass"
+    "case" :"We will enter an empty name",
+    "name":"",
+    "expected Result" : "will display an error"
 
 },
 {
     "case" :"Enter a Letter ",
     "name":"D",
-    "expected Result" : "pass"
+    "expected Result" : "The site will display all products that have the same letter in their name."
 
 },
 {
     "case" :"We will enter a word that is found in the description of the same product.",
-    "name":"woman",
-    "expected Result" : "pass"
+    "name":"Nam",
+    "expected Result" : "The site will display those products that have the same word in both the name and the product description."
 
 
 }
-
-
-
 
 ]

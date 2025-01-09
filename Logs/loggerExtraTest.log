@@ -1,0 +1,72 @@
+[INFO ] 2025-01-08 12:28:25.593 [main] contectUsTest - Now testing use case 1: We will enter a contact request with all the complete details.
+[INFO ] 2025-01-08 12:28:26.117 [main] contectUsTest - now let's click on the contact us option
+[INFO ] 2025-01-08 12:28:26.128 [main] contectUsTest - we now at the contact us screen
+[INFO ] 2025-01-08 12:28:26.386 [main] contectUsTest - put Email in the page as: Horinyam@gmail.com
+[INFO ] 2025-01-08 12:28:26.543 [main] contectUsTest - put Message in the page as: Message
+[INFO ] 2025-01-08 12:28:26.710 [main] contectUsTest - put Subject in the page as: Test Subject
+[INFO ] 2025-01-08 12:28:26.833 [main] contectUsTest - put Name in the page as: Yam
+[INFO ] 2025-01-08 12:28:27.849 [main] contectUsTest - we clicked on the contact us check 
+[INFO ] 2025-01-08 12:28:40.018 [main] contectUsTest - we did not found errors in our action
+[INFO ] 2025-01-08 12:28:40.018 [main] contectUsTest - ACTION PASS WITH NO ERRORS - TEST PASS
+[INFO ] 2025-01-08 12:28:42.284 [main] contectUsTest - Now testing use case 2: Enter a contact request with all the details complete except the name.
+[INFO ] 2025-01-08 12:28:42.764 [main] contectUsTest - now let's click on the contact us option
+[INFO ] 2025-01-08 12:28:42.785 [main] contectUsTest - we now at the contact us screen
+[INFO ] 2025-01-08 12:28:43.026 [main] contectUsTest - put Email in the page as: Horinyam@gmail.com
+[INFO ] 2025-01-08 12:28:43.176 [main] contectUsTest - put Message in the page as: Message
+[INFO ] 2025-01-08 12:28:43.335 [main] contectUsTest - put Subject in the page as: Test Subject
+[INFO ] 2025-01-08 12:28:43.437 [main] contectUsTest - put Name in the page as: 
+[INFO ] 2025-01-08 12:28:43.515 [main] contectUsTest - we clicked on the contact us check 
+[INFO ] 2025-01-08 12:28:52.613 [main] contectUsTest - we got error in Name field: This field is required.
+[INFO ] 2025-01-08 12:28:52.613 [main] contectUsTest - ACTION PASS WITH ERRORS
+[INFO ] 2025-01-08 12:28:52.613 [main] contectUsTest - let's found error in the name field
+[INFO ] 2025-01-08 12:28:52.634 [main] contectUsTest - we did found error in name field
+[INFO ] 2025-01-08 12:28:52.634 [main] contectUsTest - error found in the field TEST PASS
+[INFO ] 2025-01-08 12:28:54.971 [main] contectUsTest - Now testing use case 3: Enter a contact request with all the details complete except for the email.
+[INFO ] 2025-01-08 12:28:55.416 [main] contectUsTest - now let's click on the contact us option
+[INFO ] 2025-01-08 12:28:55.440 [main] contectUsTest - we now at the contact us screen
+[INFO ] 2025-01-08 12:28:55.636 [main] contectUsTest - put Email in the page as: 
+[INFO ] 2025-01-08 12:28:55.797 [main] contectUsTest - put Message in the page as: Message
+[INFO ] 2025-01-08 12:28:55.933 [main] contectUsTest - put Subject in the page as: Test Subject
+[INFO ] 2025-01-08 12:28:56.070 [main] contectUsTest - put Name in the page as: Yam
+[INFO ] 2025-01-08 12:28:56.142 [main] contectUsTest - we clicked on the contact us check 
+[INFO ] 2025-01-08 12:28:56.183 [main] contectUsTest - we got error in Email field: This field is required.
+[INFO ] 2025-01-08 12:29:05.289 [main] contectUsTest - ACTION PASS WITH ERRORS
+[INFO ] 2025-01-08 12:29:05.289 [main] contectUsTest - let's found error in the email field
+[INFO ] 2025-01-08 12:29:05.313 [main] contectUsTest - we did found error in email field
+[INFO ] 2025-01-08 12:29:05.313 [main] contectUsTest - error found in the field TEST PASS
+[INFO ] 2025-01-08 12:29:07.596 [main] contectUsTest - Now testing use case 4: Enter a contact request with all the details complete except for the subject.
+[INFO ] 2025-01-08 12:29:08.030 [main] contectUsTest - now let's click on the contact us option
+[INFO ] 2025-01-08 12:29:08.076 [main] contectUsTest - we now at the contact us screen
+[INFO ] 2025-01-08 12:29:08.328 [main] contectUsTest - put Email in the page as: horinyam@gmail.com
+[INFO ] 2025-01-08 12:29:08.503 [main] contectUsTest - put Message in the page as: Message
+[INFO ] 2025-01-08 12:29:08.624 [main] contectUsTest - put Subject in the page as: 
+[INFO ] 2025-01-08 12:29:08.728 [main] contectUsTest - put Name in the page as: Yam
+[INFO ] 2025-01-08 12:29:09.731 [main] contectUsTest - we clicked on the contact us check 
+[INFO ] 2025-01-08 12:29:21.880 [main] contectUsTest - we did not found errors in our action
+[INFO ] 2025-01-08 12:29:21.880 [main] contectUsTest - ACTION PASS WITH NO ERRORS FAIL
+[INFO ] 2025-01-08 12:29:24.117 [main] contectUsTest - Now testing use case 5: Enter a  empty contact request 
+[INFO ] 2025-01-08 12:29:24.549 [main] contectUsTest - now let's click on the contact us option
+[INFO ] 2025-01-08 12:29:24.558 [main] contectUsTest - we now at the contact us screen
+[INFO ] 2025-01-08 12:29:24.749 [main] contectUsTest - put Email in the page as: 
+[INFO ] 2025-01-08 12:29:24.872 [main] contectUsTest - put Message in the page as: 
+[INFO ] 2025-01-08 12:29:25.011 [main] contectUsTest - put Subject in the page as: 
+[INFO ] 2025-01-08 12:29:25.172 [main] contectUsTest - put Name in the page as: 
+[INFO ] 2025-01-08 12:29:25.241 [main] contectUsTest - we clicked on the contact us check 
+[INFO ] 2025-01-08 12:29:25.281 [main] contectUsTest - we got error in Email field: This field is required.
+[INFO ] 2025-01-08 12:29:25.327 [main] contectUsTest - we got error in Message field: This field is required.
+[INFO ] 2025-01-08 12:29:28.375 [main] contectUsTest - we got error in Name field: This field is required.
+[INFO ] 2025-01-08 12:29:28.375 [main] contectUsTest - ACTION PASS WITH ERRORS
+[INFO ] 2025-01-08 12:29:28.375 [main] contectUsTest - error found in the field TEST PASS
+[INFO ] 2025-01-08 12:29:30.339 [main] contectUsTest - Now testing use case 6: We will enter a request with an incorrect email.
+[INFO ] 2025-01-08 12:29:30.851 [main] contectUsTest - now let's click on the contact us option
+[INFO ] 2025-01-08 12:29:30.862 [main] contectUsTest - we now at the contact us screen
+[INFO ] 2025-01-08 12:29:31.185 [main] contectUsTest - put Email in the page as: horinyam.com
+[INFO ] 2025-01-08 12:29:31.332 [main] contectUsTest - put Message in the page as: Message
+[INFO ] 2025-01-08 12:29:31.504 [main] contectUsTest - put Subject in the page as: subject
+[INFO ] 2025-01-08 12:29:31.634 [main] contectUsTest - put Name in the page as: Yam
+[INFO ] 2025-01-08 12:29:31.712 [main] contectUsTest - we clicked on the contact us check 
+[INFO ] 2025-01-08 12:29:31.742 [main] contectUsTest - we got error in Email field: Please enter a valid email address.
+[INFO ] 2025-01-08 12:29:40.818 [main] contectUsTest - ACTION PASS WITH ERRORS
+[INFO ] 2025-01-08 12:29:40.818 [main] contectUsTest - let's found error in the email field
+[INFO ] 2025-01-08 12:29:40.832 [main] contectUsTest - we did found error in email field
+[INFO ] 2025-01-08 12:29:40.832 [main] contectUsTest - error found in the field TEST PASS
